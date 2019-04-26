@@ -220,6 +220,8 @@
           is_debug = false
           remove_webcore_debug_symbols = true
           symbol_level = 0
+          proprietary_codecs = true
+          ffmpeg_branding = "Chrome" 
         dest: /srv/source/chromium/src/out/Headless/args.gn
 
     - name: Generating Headless Chromium Configuration
