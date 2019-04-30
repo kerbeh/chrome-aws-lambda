@@ -171,7 +171,7 @@
 
     - name: Fetching Chromium
       shell: |
-        fetch --no-history chromium
+        fetch chromium
       args:
         chdir: /srv/source/chromium
 
