@@ -171,7 +171,7 @@
 
     - name: Fetching Chromium
       shell: |
-        fetch chromium
+        fetch --no-history chromium
       args:
         chdir: /srv/source/chromium
 
@@ -218,7 +218,7 @@
           enable_nacl = false
           is_component_build = false
           is_debug = false
-          remove_webcore_debug_symbols = true
+          blink_symbol_level = 0
           symbol_level = 0
           proprietary_codecs = true
           ffmpeg_branding = "Chrome" 
