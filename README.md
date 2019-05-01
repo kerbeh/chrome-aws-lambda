@@ -4,7 +4,7 @@
 [![Chromium](https://img.shields.io/badge/chromium-35_MB-brightgreen.svg?style=for-the-badge)](bin/)
 [![Donate](https://img.shields.io/badge/donate-paypal-orange.svg?style=for-the-badge)](https://paypal.me/alixaxel)
 
-Chromium Binary for AWS Lambda and Google Cloud Functions
+Chromium Binary compiled with proprietary_codecs for AWS Lambda and Google Cloud Functions
 
 ## Install
 
